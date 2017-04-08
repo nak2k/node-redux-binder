@@ -3,7 +3,7 @@ const actions = Object.create(null);
 export default actions;
 
 export const bindActionCreators = (actionCreators, dispatch) =>
-  Object.keys(actionCreators).forEach(key => {
+  (Object.keys(actionCreators).forEach(key => {
     if (key === 'default') {
       return;
     }
@@ -13,4 +13,4 @@ export const bindActionCreators = (actionCreators, dispatch) =>
     if (typeof(actionCreator) === 'function') {
       actions[key] = (...args) => dispatch(actionCreator(...args));
     }
-  });
+  }), actions);
