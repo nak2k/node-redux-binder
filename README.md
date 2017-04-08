@@ -46,8 +46,12 @@ This object keeps bound action creators.
 
 This function binds action creators, and put into the `default`.
 
-Actions in `actionCreators` are ignored, and `actionCreators.default`
+Action types in `actionCreators` are ignored, and `actionCreators.default`
 are also ignored for Ducks.
+
+## Related
+
+- [bathroom](https://github.com/nak2k/node-bathroom)
 
 ## License
 
