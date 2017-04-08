@@ -1,6 +1,6 @@
 {
   "name": "redux-binder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Keep bound action creators",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/nak2k/node-redux-binder",
   "keywords": [
+    "ducks",
     "redux"
   ],
   "license": "MIT",
